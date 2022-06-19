@@ -14,6 +14,7 @@ def home(request):
 
 def user(request):
     myusers = Users.objects.all()
+    print('akjhfkjashf')
     context = {
         'myusers':myusers
     }
